@@ -30,6 +30,9 @@ import javax.swing.JSeparator;
 import javax.swing.JTextPane;
 import javax.swing.SwingConstants;
 
+//Author: David Vincent
+
+
 public class CryptView extends JFrame {
 
 	private Controller controller;

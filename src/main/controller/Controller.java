@@ -17,6 +17,8 @@ import main.view.DisplayGraph;
  * This class is NOT thread safe.
  */
 
+//Author: David Vincent
+
 public class Controller 
 {
 	private static Controller instance = null;

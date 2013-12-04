@@ -1,5 +1,7 @@
 package main.model;
 
+//Author: David Vincent
+
 public enum CypherType 
 {
 	PLAIN_TEXT, MONO_ALPHABETIC, POLY_ALPHABETIC,UNKNOWN;

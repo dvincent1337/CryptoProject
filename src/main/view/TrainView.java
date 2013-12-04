@@ -1,4 +1,5 @@
 package main.view;
+//Author: David Vincent
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
