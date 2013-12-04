@@ -1,5 +1,7 @@
 CryptoProject
 =============
+Authors: David Vincent, Ben Greer
+
 Dependencies:
 
 commons-io-2.4				- for file IO <br>
