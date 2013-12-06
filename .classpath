@@ -9,5 +9,6 @@
 	<classpathentry kind="lib" path="C:/Users/david/Lib/neuroph-2.8/neuroph-core-2.8.jar"/>
 	<classpathentry kind="lib" path="C:/Users/david/Lib/google-gson-2.2.4/gson-2.2.4.jar"/>
 	<classpathentry kind="lib" path="C:/Users/david/Lib/commons-io-2.4/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="forms-1.3.0.jar" sourcepath="forms-1.3.0-src.zip"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

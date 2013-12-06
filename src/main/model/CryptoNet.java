@@ -188,7 +188,7 @@ public class CryptoNet
 		sigNet.setInput(result);
 		sigNet.calculate();
 		double [] returnArray = new double[sigNet.getOutput().length];
-		//System.arraycopy(sigNet.getOutput(), 0, returnArray, 0, returnArray.length);
+		System.arraycopy(sigNet.getOutput(), 0, returnArray, 0, returnArray.length);
 		
 		return returnArray;
 	}
@@ -197,7 +197,7 @@ public class CryptoNet
 		sigNet.setInput(result);
 		sigNet.calculate();
 		double [] returnArray = new double[sigNet.getOutput().length];
-		//System.arraycopy(sigNet.getOutput(), 0, returnArray, 0, returnArray.length);
+		System.arraycopy(sigNet.getOutput(), 0, returnArray, 0, returnArray.length);
 		
 		return returnArray;
 	}
@@ -273,6 +273,7 @@ public class CryptoNet
 			
 		}
 		
+		
 	
 	}
 		
@@ -326,7 +327,11 @@ public class CryptoNet
         text = text.toUpperCase();
         for (int i = 0, j = 0; i < text.length(); i++) {
             char c = text.charAt(i);
-            if (c < 'A' || c > 'Z') continue;
+            if (c < 'A' || c > 'Z')
+            {
+            	res += c;
+            	continue;
+            }
             res += (char)((c + theKey.charAt(j) - 2 * 'A') % 26 + 'A');
             j = ++j % theKey.length();
         }
