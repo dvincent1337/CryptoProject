@@ -1,0 +1,19 @@
+i = "d:;7<k?9"
+
+i = list(i)
+  
+i = [ord(c) for c in i]
+
+j = 0
+
+while i[j]:   
+  print chr(i[j] + j)
+  j = j + 1
+  
+  else
+end
+  
+
+
+
+
